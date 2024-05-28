@@ -1,0 +1,28 @@
+
+
+
+POST http://localhost:8080/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Estudiar javascript",
+    "description": "Estudiar javascript para poder hacer aplicaciones web",
+    "state": false,
+    "priority": true
+}
+
+
+DELETE http://localhost:8080/tasks/6643f5a4af1a9842a2e6c2b8 HTTP/1.1
+
+
+PUT http://localhost:8080/tasks/6646654d8a03dc6c2277c8b9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Estudiar javascript",
+    "description": "Estudiar javascript para poder hacer aplicaciones web HOLA MUNDO",
+    "state": true,
+    "priority": true
+}
+
+
